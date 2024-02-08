@@ -1,9 +1,11 @@
 <?php
 switch($action)
 {
-    case 'repose':
+    case 'reponse':
     {
-        echo 'Partie a coder'
+        //var_dump($_REQUEST ['catpro']);
+        $catpro=$_REQUEST ['catpro'];
+     include 'views/reponse.php';
         break;
     }
     default:
